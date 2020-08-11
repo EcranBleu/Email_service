@@ -14,4 +14,3 @@ with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp_host:
     smtp_host.login(#youremailaccount, #yourpassword)
     smtp_host.send_message(email)
     print(f'Mail sent to {email["to"]}')
-
